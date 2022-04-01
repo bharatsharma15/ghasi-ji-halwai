@@ -1,0 +1,261 @@
+                @import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+                @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+                @import url('https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap');
+                body {
+                    overflow-x: hidden;
+                    /* Hide scrollbars */
+                    background-color: #fbfae8;
+                }
+                
+                *,
+                 ::after,
+                 ::before {
+                    box-sizing: border-box;
+                }
+                
+                .social_contactnav .fa {
+                    color: #ac2931;
+                    font-size: 20px;
+                }
+                
+                .social_contact {
+                    border-bottom: 1px solid #7d7d7d;
+                }
+                
+                .container {
+                    padding-top: 10px;
+                    padding-left: 20px;
+                }
+                
+                .card {
+                    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2);
+                    margin: 8px;
+                    background-color: pink;
+                    margin-left: 30px;
+                    align-items: center;
+                }
+                
+                .container::after,
+                .row::after {
+                    content: "";
+                    clear: both;
+                    display: table;
+                }
+                
+                .button {
+                    border: none;
+                    display: inline-block;
+                    padding: 8px;
+                    font-size: 20px;
+                    color: white;
+                    background-color: #000;
+                    text-align: center;
+                    cursor: pointer;
+                    width: 85%;
+                    border-radius: 8px;
+                }
+                
+                .button:hover {
+                    background-color: #555;
+                }
+                
+                .prize {
+                    color: gray;
+                }
+                
+                .ourproduct {
+                    font-family: 'Lobster', cursive;
+                    font-size: 40px;
+                    color: brown;
+                    text-underline-position: auto;
+                    text-decoration: underline;
+                }
+                
+                .festival-special {
+                    padding: 20px 50px 20px;
+                }
+                
+                .festival-header {
+                    text-align: center;
+                    font-family: 'Lobster', cursive;
+                    font-size: 45px;
+                    color: brown;
+                    text-underline-position: auto;
+                    text-decoration: underline;
+                }
+                
+                .festival-product {
+                    font-family: 'Metal Mania', cursive;
+                    font-size: 25px;
+                }
+                
+                .product-header {
+                    text-align: center;
+                    font-family: 'Lobster', cursive;
+                    font-size: 45px;
+                    color: brown;
+                    text-underline-position: auto;
+                    text-decoration: underline;
+                }
+                
+                .product {
+                    font-family: 'Metal Mania', cursive;
+                    font-size: 15px;
+                }
+                
+                .aboutproduct {
+                    font-family: 'Courgette', cursive;
+                    font-size: 15px;
+                    width: 90%;
+                }
+                
+                .productname {
+                    font-family: 'Metal Mania', cursive;
+                    font-size: 30px;
+                }
+                
+                #gh-logo {
+                    width: 15em;
+                    height: 15em;
+                    float: inline-start;
+                }
+                
+                .about-us {
+                    background: #ac2931 url(abput_bg_img.png)no-repeat;
+                    background-position-x: left;
+                    background-position-y: 0;
+                    padding-bottom: 20px;
+                }
+                
+                .about-us h1 {
+                    margin-top: 0;
+                    text-align: center;
+                    font-size: 45px;
+                    color: #f58220;
+                    margin-bottom: 42px;
+                    text-decoration: underline;
+                    text-underline-position: auto;
+                    font-family: 'Lobster', cursive;
+                }
+                
+                .hollow_button {
+                    margin: 20px 0 40px;
+                }
+                
+                .hollow_button a {
+                    background-color: transparent;
+                    color: #fff;
+                    font-size: 12px;
+                    border: 1px solid #fff;
+                    border-radius: 28px;
+                    padding: 5px 25px;
+                    text-transform: uppercase;
+                }
+                
+                .about-us p {
+                    font-size: 15px;
+                    color: #fff;
+                    text-align: right;
+                    padding-left: 50px;
+                    padding-right: 50px;
+                }
+                
+                .map-responsive {
+                    overflow: hidden;
+                    padding-bottom: 56.25%;
+                    position: relative;
+                    height: 0;
+                }
+                
+                .map-responsive iframe {
+                    left: 0;
+                    top: 0;
+                    height: 100%;
+                    width: 100%;
+                    position: absolute;
+                }
+                
+                .map_text {
+                    font-family: 'Lobster', cursive;
+                    font-size: 45px;
+                    color: brown;
+                    text-underline-position: auto;
+                    text-decoration: underline;
+                    text-align: center;
+                }
+                
+                .call {
+                    background: #ac2931;
+                    padding-left: 15px;
+                    padding-right: 15px;
+                }
+                
+                .call h4 {
+                    margin-top: 0;
+                    text-align: center;
+                    font-size: 45px;
+                    color: #f58220;
+                    margin-bottom: 42px;
+                    text-decoration: underline;
+                    text-underline-position: auto;
+                    font-family: 'Lobster', cursive;
+                }
+                
+                .call p {
+                    font-size: 15px;
+                    color: #fff;
+                    text-align: right;
+                    padding-left: 50px;
+                    padding-right: 50px;
+                }
+                
+                .social_contact .fa {
+                    color: #ac2931;
+                    font-size: 20px;
+                }
+                
+                .social_contact {
+                    border-bottom: 1px solid #7d7d7d;
+                }
+                
+                .gh_footer {
+                    color: #a5a5a5;
+                    font-size: 14px;
+                    max-width: 100%;
+                }
+                
+                .gh_footer h5 {
+                    text-transform: uppercase;
+                    font-size: 12px;
+                    color: #000;
+                }
+                
+                .gh_footer .align_right a {
+                    color: #a5a5a5;
+                    font-size: 13px;
+                    border: none;
+                    text-transform: none;
+                }
+                
+                .footer_img {
+                    float: left;
+                    width: 50%;
+                    margin: 4px 0;
+                    clear: both;
+                }
+                
+                #footer-right {
+                    text-align: left;
+                }
+                
+                .copyright {
+                    padding-right: 30px;
+                    float: right;
+                    color: rgb(5, 5, 5);
+                    font-family: lato;
+                    font-size: 15px;
+                }
+                
+                .form-group {
+                    max-width: 30em;
+                }
